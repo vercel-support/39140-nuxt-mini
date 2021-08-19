@@ -2,7 +2,7 @@
   <div>
 	  Homepage.
 	  <br>
-	  Visiting <nuxt-link :to="`https://${sub}.loginhook.com`">{{sub}}.loginhook.com</nuxt-link> should show the message: "Hello user {{sub}}"
+	  Visiting <a :href="`https://${sub}.loginhook.com`">{{sub}}.loginhook.com</a> should show the message: "Hello user {{sub}}"
   </div>
 </template>
 
@@ -13,7 +13,7 @@ export default {
 			sub:''
 		}
 	},
-	mounted(){
+	created(){
 		this.sub = + new Date()
 	}
 }
