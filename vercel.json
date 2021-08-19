@@ -1,0 +1,13 @@
+{
+	"rewrites": [
+		{
+			"source": "/(.*)",
+			"has": {
+				"type": "host",
+				"value": "(?<sub>.*)\\.loginhook\\.com"
+			},
+			"destination": "/boards/:sub"
+		}
+    ],
+	"trailingSlash": false
+}
