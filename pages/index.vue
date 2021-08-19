@@ -2,7 +2,7 @@
   <div>
 	  Homepage.
 	  <br>
-	  Visiting <nuxt-link :to="`/${sub}.loginhook.com`">{{sub}}.loginhook.com</nuxt-link> should show the message: "Hello user {{sub}}"
+	  Visiting <nuxt-link :to="`https://${sub}.loginhook.com`">{{sub}}.loginhook.com</nuxt-link> should show the message: "Hello user {{sub}}"
   </div>
 </template>
 
