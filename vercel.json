@@ -1,7 +1,7 @@
 {
 	"rewrites": [
 		{
-			"source": "/test",
+			"source": "/case-1",
 			"has": [
 				{
 					"type": "host",
@@ -11,11 +11,21 @@
 			"destination": "/user/_user_id"
 		},
 		{
-			"source": "/nuxt",
+			"source": "/case-2",
 			"destination": "https://nuxtjs.org/"
 		},
 		{
-			"source": "/host-rewrite-example",
+			"source": "/case-3",
+			"has": [
+				{
+					"type": "host",
+					"value": "(?<sub>.*)\\.vercel-support\\.app"
+				}
+			],
+			"destination": "https://which-slug.vercel-support.app/:sub"
+		},
+		{
+			"source": "/case-4",
 			"has": [
 				{
 					"type": "host",
