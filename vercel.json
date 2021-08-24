@@ -8,8 +8,7 @@
 					"value": "(?<sub>.*)\\.vercel-support\\.app"
 				}
 			],
-			"destination": "/user/",
-			"permanent": false
+			"destination": "/user/"
 		}
   ]
 }
