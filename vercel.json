@@ -9,6 +9,16 @@
 				}
 			],
 			"destination": "/user/_user_id"
+		},
+		{
+			"source": "/vercel",
+			"has": [
+				{
+					"type": "host",
+					"value": "vercel\\.vercel-support\\.app"
+				}
+			],
+			"destination": "https://vercel.com/home/"
 		}
   ]
 }
