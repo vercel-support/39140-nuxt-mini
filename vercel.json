@@ -5,7 +5,7 @@
 			"has": [
 				{
 					"type": "host",
-					"value": "(?<sub>.*).vercel-support.app"
+					"value": "test.vercel-support.app"
 				}
 			],
 			"destination": "/user/"
