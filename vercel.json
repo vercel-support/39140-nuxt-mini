@@ -11,8 +11,8 @@
 			"destination": "/user/_user_id"
 		},
 		{
-			"source": "/vercel",
-			"destination": "https://vercel.com/home/"
+			"source": "/nuxt",
+			"destination": "https://nuxtjs.org/"
 		}
   ]
 }
