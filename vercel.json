@@ -8,7 +8,7 @@
 					"value": "(?<sub>.*)\\.vercel-support\\.app"
 				}
 			],
-			"destination": "/user/_user_id"
+			"destination": "/user/:sub"
 		},
 		{
 			"source": "/case-2",
