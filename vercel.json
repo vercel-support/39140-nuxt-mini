@@ -22,7 +22,7 @@
 					"value": "(?<sub>.*)\\.vercel-support\\.app"
 				}
 			],
-			"destination": "https://nextjs-with-query-cache-test.vercel-support.app/news/:sub"
+			"destination": "https://mini-nuxt.vercel.app/user/:sub"
 		}
   ],
 	"trailingSlash": false
