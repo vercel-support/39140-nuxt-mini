@@ -15,14 +15,14 @@
 			"destination": "https://nuxtjs.org/"
 		},
 		{
-			"source": "/nuxt-domain",
+			"source": "/host-rewrite-example",
 			"has": [
 				{
 					"type": "host",
 					"value": "(?<sub>.*)\\.vercel-support\\.app"
 				}
 			],
-			"destination": "https://nuxtjs.org/:sub"
+			"destination": "https://nextjs-with-query-cache-test.vercel-support.app/news/:sub"
 		}
   ],
 	"trailingSlash": false
