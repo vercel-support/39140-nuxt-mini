@@ -13,6 +13,16 @@
 		{
 			"source": "/nuxt",
 			"destination": "https://nuxtjs.org/"
+		},
+		{
+			"source": "/nuxt-domain",
+			"has": [
+				{
+					"type": "host",
+					"value": "(?<sub>.*)\\.vercel-support\\.app"
+				}
+			],
+			"destination": "https://nuxtjs.org/:sub"
 		}
   ],
 	"trailingSlash": false
