@@ -2,12 +2,14 @@
 	"rewrites": [
 		{
 			"source": "/(.*)",
-			"has": [{
-				"type": "host",
-				"value": "(?<sub>.*)\\.loginhook\\.com"
-			}],
-			"destination": "/user/:sub"
+			"has": [
+				{
+					"type": "host",
+					"value": "(?<sub>.*)\\.vercel-support\\.app"
+				}
+			],
+			"destination": "/user/",
+			"permanent": false
 		}
-    ],
-	"trailingSlash": false
+  ]
 }
